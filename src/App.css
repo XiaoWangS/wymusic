@@ -1,0 +1,112 @@
+body{
+  font-size: 16px;
+}
+
+.App {
+  text-align: center;
+  background-color: white;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.reg-outer{
+  display: flex;
+  justify-content: space-around;
+  /* vertical-align: baseline */
+  /* justify-content: space-between */
+  /* position: absolute; */
+
+}
+.reg-outer>figcaption{
+  width: 25%;
+  margin-top:2rem;  
+}
+.reg-outer div{
+  width: 100%;
+  text-align: center;
+  margin-top: 1rem;
+}
+.reg-display{
+  width: 100%;
+  position: absolute;
+  bottom: 1.5rem;
+}
+.am-search-cancel{
+  color: white;
+}.main-bottom{
+  width: 100%;
+  background-color: #372B1C;
+  position: fixed;
+  bottom: 0px;
+  z-index: 2
+}
+.rotate{
+  transform: rotate(180deg);
+  padding-right:1rem ;
+}
+.player{
+background-size: 100% 100%;
+}
+.abouts{
+  position: absolute;
+  right: 7.98rem;  
+  font-size: .8rem;
+  top:29.4rem
+}
+.beijingse{
+  background: radial-gradient(circle,#734552,#5b407c)
+}
+.am-search-cancel{
+  color: white
+}
+.am-search-cancel-show{
+  color: white
+}
+.am-search-cancel-anim{
+  color: white
+
+}
+
+ /* .bg-div {
+    height: 205px;
+    width: 205px;
+    background: url('http://s2.music.126.net/style/web2/img/coverall.png?e8cb94d884e56897e524dec54b947d6e') no-repeat;
+    background-position: -140px -580px;
+ } */
+ .bg-div> img {
+        animation: rotate-animation 10s infinite linear;
+    }
+
+@keyframes rotate-animation {
+    0% {
+        transform: rotate(0deg);
+  }
+  50% {
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
